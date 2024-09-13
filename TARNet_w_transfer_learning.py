@@ -140,7 +140,7 @@ alpha = 10  # In the article there are four scenarios where alpha is 0, 1, 3 and
 # Alpha balances the contribution of the Wassertein loss and mse.
 
 input_dim = 5
-hidden_dim = 100
+hidden_dim = 10
 output_dim = 1
 classify = False
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
